@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WunderVision Recipes</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>WunderVision Recipe PDF List</h1>
+    <ol>
+        {% for file in files %}
+            <li><a href='recipe/{{ file }}'>{{ file }}</a></li>
+        {% endfor %}
+    </ol>
+</body>
+</html>
