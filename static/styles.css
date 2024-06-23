@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list > li {
+    padding: 0;
+}
+
+.link_button {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin: 4px 0px;
+    background-color: #005090;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}

@@ -7,10 +7,12 @@
 </head>
 <body>
     <h1>WunderVision Recipe PDF List</h1>
-    <ol>
+    <ul class="list">
         {% for file in files %}
-            <li><a href='recipe/{{ file }}'>{{ file }}</a></li>
+            <li>
+                <a class="link_button" href='recipes/{{ file[0] }}'>{{ file[1] }}</a>
+            </li>
         {% endfor %}
-    </ol>
+    </ul>
 </body>
 </html>
